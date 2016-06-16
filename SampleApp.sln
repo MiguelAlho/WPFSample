@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleApp", "src\SampleApp\SampleApp.csproj", "{C4338410-5C50-4AE1-86E3-38A0F5FDE4BC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D3D48636-8EF2-4E42-BF58-AD1574413CCE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{D30AC681-299A-4B60-9BD8-E6AB7C9C90A0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tools", "tools", "{49C4309A-2D14-4EC3-956A-79431CE63554}"
+	ProjectSection(SolutionItems) = preProject
+		nuget.config = nuget.config
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleApp.Tests", "test\SampleApp.Tests\SampleApp.Tests.csproj", "{22E69F70-D40F-4D15-9E6C-078A0F7561D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleApp.AcceptanceTests", "test\SampleApp.AcceptanceTests\SampleApp.AcceptanceTests.csproj", "{E1900FAE-1976-40FA-897F-EC5CAE61CFBB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C4338410-5C50-4AE1-86E3-38A0F5FDE4BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4338410-5C50-4AE1-86E3-38A0F5FDE4BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4338410-5C50-4AE1-86E3-38A0F5FDE4BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4338410-5C50-4AE1-86E3-38A0F5FDE4BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22E69F70-D40F-4D15-9E6C-078A0F7561D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22E69F70-D40F-4D15-9E6C-078A0F7561D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22E69F70-D40F-4D15-9E6C-078A0F7561D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22E69F70-D40F-4D15-9E6C-078A0F7561D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1900FAE-1976-40FA-897F-EC5CAE61CFBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1900FAE-1976-40FA-897F-EC5CAE61CFBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1900FAE-1976-40FA-897F-EC5CAE61CFBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1900FAE-1976-40FA-897F-EC5CAE61CFBB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C4338410-5C50-4AE1-86E3-38A0F5FDE4BC} = {D3D48636-8EF2-4E42-BF58-AD1574413CCE}
+		{22E69F70-D40F-4D15-9E6C-078A0F7561D9} = {D30AC681-299A-4B60-9BD8-E6AB7C9C90A0}
+		{E1900FAE-1976-40FA-897F-EC5CAE61CFBB} = {D30AC681-299A-4B60-9BD8-E6AB7C9C90A0}
+	EndGlobalSection
+EndGlobal
